@@ -23,8 +23,15 @@ export const ProjectCardsList = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-
+  margin: 0 auto;
   gap: 50px;
+
+  @media (max-width: 980px){
+    align-items: center;
+    justify-content: center;
+  }
+
+
 
 
 
@@ -32,15 +39,14 @@ export const ProjectCardsList = styled.div`
 
 
 export const Cards = styled.div`
-  width: 22%;
- >div{
-  height: 490px;
-  img{
-   border-radius: 16px;
-   width: 100%;
-   height: 200px;
-  }
- }
+
+
+  transition: transform 0.3s ease-out, filter 0.3s ease-out;
+cursor: pointer;
+
+&:hover{
+  transform: scale(1.1, 1.1);
+}
 `;
 
 

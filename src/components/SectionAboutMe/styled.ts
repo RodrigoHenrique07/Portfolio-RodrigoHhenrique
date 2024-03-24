@@ -61,7 +61,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 25px;
 margin-top: 5px;
-text-align: justify;
+
 
 &:first-child {
     margin-bottom: 20px;

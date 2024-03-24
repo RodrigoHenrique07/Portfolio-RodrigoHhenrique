@@ -33,16 +33,21 @@ export const TopHomeTexts = styled.div`
 
 export const Description = styled.p`
   color: rgba(255, 255, 255, 0.5);
-
   text-align: justify;
   font-size: 20px;
   font-weight: 400;
   margin: 16px 0;
+
+  @media (max-width: 480px){
+    margin: 16px 0 40px  0;
+  }
+
+
 `;
 
 export const MidiaSocial = styled.div`
   display: flex;
-  gap: 5px;
+  gap: 16px;
 
   @media (max-width: 980px) {
     margin-bottom: 30px;
@@ -54,7 +59,14 @@ export const MidiaSocial = styled.div`
 
 `;
 
-export const IconRede = styled.a``;
+export const IconRede = styled.a`
+transition: all .3s;
+
+&:hover{
+  transform: translateY(-10px);
+}
+
+`;
 
 export const Mockup = styled.div`
   width: 100%;

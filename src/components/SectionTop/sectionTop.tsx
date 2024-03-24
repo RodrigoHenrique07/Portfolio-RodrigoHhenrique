@@ -1,4 +1,10 @@
-import { ButtonContato, ButtonDown, Title, Topbar, TopicosTag } from 'ui-library-rodrigo'
+import {
+  ButtonContato,
+  ButtonDown,
+  Title,
+  Topbar,
+  TopicosTag
+} from 'ui-library-rodrigo'
 import linkedin from '@assets/linkedin.svg'
 import github from '@assets/github.svg'
 import imgavatar from '@assets/AvatarAndIcons.png'
@@ -15,7 +21,7 @@ export function SectionTop() {
       <S.ContainerSectionTop>
         <Topbar>
           <img src={logo} alt="" />
-          <MenuTopbar/>
+          <MenuTopbar />
         </Topbar>
 
         <S.TopHomeMain>
