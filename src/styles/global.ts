@@ -14,7 +14,7 @@ export default createGlobalStyle`
 }
 
 body {
-background: ${({ theme }) => theme.BackgroundDefault}
+  background: #090E16;
 }
 
 body, input, button, textarea{
