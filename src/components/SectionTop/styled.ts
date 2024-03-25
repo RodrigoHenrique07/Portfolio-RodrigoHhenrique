@@ -92,6 +92,7 @@ export const Buttons = styled.div`
   @media (max-width: 980px) {
       flex-direction: row;
       gap: 15px;
+      align-items: center;
   }
 
 

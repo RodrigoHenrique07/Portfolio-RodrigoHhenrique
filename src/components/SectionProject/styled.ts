@@ -31,6 +31,10 @@ export const ProjectCardsList = styled.div`
     justify-content: center;
   }
 
+  @media (max-width: 600px){
+    gap: 30px;
+  }
+
 
 
 
@@ -41,11 +45,18 @@ export const ProjectCardsList = styled.div`
 export const Cards = styled.div`
 
 
-  transition: transform 0.3s ease-out, filter 0.3s ease-out;
+transition: transform 0.3s ease-out, filter 0.3s ease-out;
 cursor: pointer;
 
 &:hover{
   transform: scale(1.1, 1.1);
+}
+
+@media (max-width: 480px) {
+  >div{
+    height: auto;
+    gap: 15px;
+  }
 }
 `;
 
