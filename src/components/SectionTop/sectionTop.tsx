@@ -15,14 +15,29 @@ import logo from '@assets/logo.svg'
 
 import * as S from './styled'
 import { MenuTopbar } from '../MenuTopbar/menuTopbar'
+import { useState } from 'react'
+import { ModalMobile } from '../ModalMobile/modalMobile'
 export function SectionTop() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
-      <S.ContainerSectionTop>
+      <S.ContainerSectionTop id="home">
         <Topbar>
           <img src={logo} alt="" />
           <MenuTopbar />
         </Topbar>
+
+        <S.BurgerIconContainer onClick={toggleMenu}>
+          <S.BurgerIcon />
+        </S.BurgerIconContainer>
+
+        {isOpen && <ModalMobile onclick={toggleMenu}/> }
 
         <S.TopHomeMain>
           <S.Wrapper>
@@ -33,10 +48,16 @@ export function SectionTop() {
               <S.Description>Front-end developer</S.Description>
 
               <S.MidiaSocial>
-                <S.IconRede>
+                <S.IconRede
+                  href="https://www.linkedin.com/feed/"
+                  target="_blank"
+                >
                   <img src={linkedin} alt="" />
                 </S.IconRede>
-                <S.IconRede>
+                <S.IconRede
+                  href="https://github.com/RodrigoHenrique07"
+                  target="_blank"
+                >
                   <img src={github} alt="" />
                 </S.IconRede>
               </S.MidiaSocial>
@@ -48,12 +69,22 @@ export function SectionTop() {
           </S.Wrapper>
 
           <S.Buttons>
-            <ButtonDown texto="Baixar CV">
-              <img src={arrowDown} />
-            </ButtonDown>
-            <ButtonContato texto="Vamos conversar">
-              <img src={whats} alt="" />
-            </ButtonContato>
+            <a
+              href="https://drive.google.com/file/d/11e0HdkP7eyTNc0_WskEIwCAl0LmskNYs/view?usp=sharing"
+              target="_blank"
+            >
+              <ButtonDown texto="Baixar CV">
+                <img src={arrowDown} />
+              </ButtonDown>
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=5581991431409"
+              target="_blank"
+            >
+              <ButtonContato texto="Vamos conversar">
+                <img src={whats} alt="" />
+              </ButtonContato>
+            </a>
           </S.Buttons>
         </S.TopHomeMain>
       </S.ContainerSectionTop>

@@ -5,6 +5,7 @@ export const ContainerSectionTop = styled.section`
 
   border-bottom: 1px solid rgba(123, 74, 226, 0.2);
 
+
   @media (max-width: 480px) {
     padding: 38px 0 70px 0;
   }
@@ -126,4 +127,40 @@ export const Wrapper = styled.div`
 
 
 
+`;
+
+
+
+export const BurgerIconContainer = styled.div`
+  display: none;
+
+  @media (max-width: 480px) {
+    display: block;
+  }
+`;
+
+export const BurgerIcon = styled.div`
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  position: relative;
+
+  transform: rotate(0deg);
+
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: white;
+    width: 100%;
+  }
+
+  &:before {
+    top: -10px;
+  }
+
+  &:after {
+    top: 10px;
+
+  }
 `;

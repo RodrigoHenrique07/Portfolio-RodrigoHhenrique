@@ -5,6 +5,11 @@ export const Menu = styled.ul`
   text-decoration: none;
   display: flex;
   gap: 16px;
+
+  @media (max-width: 600px) {
+    gap: 10px;
+
+  }
 `;
 
 export const ItemMenu = styled.li``;
@@ -20,5 +25,10 @@ export const LinkMenu = styled.a`
 
   &:hover {
     color: rgba(123, 74, 226, 0.5);
+  }
+
+
+  @media (max-width: 600px) {
+    font-size: 16px;
   }
 `;

@@ -5,6 +5,7 @@ import css from '@assets/iconCSS.svg'
 import html from '@assets/iconHTML5.svg'
 import github from '@assets/iconGithub.svg'
 import git from '@assets/iconGit.svg'
+import figma from '@assets/iconFigma.svg'
 
 import node from '@assets/iconNodejs.svg'
 import sass from '@assets/iconSASS.svg'
@@ -21,6 +22,7 @@ export const TechsDiaDia = [
   {src: html, alt: 'iconHTML'},
   {src: github, alt: 'iconGithub'},
   {src: git, alt: 'iconGit'},
+  {src: figma, alt: 'iconFigma'},
 
 
 ]

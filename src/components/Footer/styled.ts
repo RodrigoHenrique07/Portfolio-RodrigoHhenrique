@@ -14,8 +14,13 @@ export const ContainerFooter = styled.div`
     padding: 27 60px;
   }
 
+  @media (max-width: 680px) {
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+
   @media (max-width: 480px) {
-    padding: 27 24px;
+    padding: 27px 24px;
   }
 
 

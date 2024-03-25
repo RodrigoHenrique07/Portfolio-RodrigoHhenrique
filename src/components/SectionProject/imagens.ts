@@ -47,8 +47,8 @@ export const trabalhos = [
     alt: '',
     title: 'LBM',
     description:
-      'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios',
-    link: 'https://lbm-two.vercel.app/',
+      'A Pagina foi desenvolvida para divulgação da empresa LMB, mostrando uma breve história e apresentandos os trabalhos / serviços . A mesma foi desenvolvida usando React com TypeScrip',
+    link: 'https://lbm-beige.vercel.app/',
     tec01: 'React',
     tec02: 'TypeScrtip',
   },
@@ -78,7 +78,7 @@ export const trabalhos = [
     title: 'Leads Solution',
     description:
       'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios',
-    link: 'https://lead-solution.vercel.app/',
+    link: 'leads-seven.vercel.app',
     tec01: 'React',
     tec02: 'TypeScrtip',
   }

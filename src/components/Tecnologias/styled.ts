@@ -30,11 +30,17 @@ export const Techs = styled.div`
   align-items: center;
   justify-content: center;
 
+  @media (max-width: 480px){
+    gap: 20px;
+  }
+
+
+
 `
 
 export const TechText = styled.p`
   color: rgba(255, 255, 255, 0.5);
-  font-family: Raleway;
+  text-align: center;
   font-size: 24px;
   font-weight: 400;
 `
@@ -44,12 +50,26 @@ export const TechsDiadia = styled.div`
   gap: 40px;
   align-items: center;
 
-  @media (max-width: 600px) {
+
+  @media (max-width: 900px) {
     flex-wrap: wrap;
-    gap: 30px;
+    justify-content: center;
+    gap: 25px;
+    margin: 0 auto;
   }
 `
 
 export const TechsOutras = styled.div``
+
+export const ReturnTopo = styled.a`
+  color: rgba(123, 74, 226, 0.50);
+  display: flex;
+  font-weight: 600;
+  gap: 10px;
+
+
+`
+
+
 
 export const iconTech = styled.img``

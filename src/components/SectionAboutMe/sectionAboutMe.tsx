@@ -4,7 +4,7 @@ import * as S from './styled';
 export function SectionAboutMe() {
   return (
     <>
-      <S.ContainerSectionAbout>
+      <S.ContainerSectionAbout id='about'>
         <S.AboutMe>
           <S.Avatar src={avatar} />
 

@@ -5,17 +5,18 @@ export function MenuTopbar() {
     <>
       <Menu>
         <ItemMenu>
-          <LinkMenu>Home</LinkMenu>
+          <LinkMenu href='#home'>Home</LinkMenu>
         </ItemMenu>
         <ItemMenu>
-          <LinkMenu>Sobre mim</LinkMenu>
+          <LinkMenu href='#about'>Sobre mim</LinkMenu>
         </ItemMenu>
         <ItemMenu>
-          <LinkMenu>Skills</LinkMenu>
+          <LinkMenu href='#project'>Projetos</LinkMenu>
         </ItemMenu>
         <ItemMenu>
-          <LinkMenu>Contato</LinkMenu>
+          <LinkMenu href='#skills'>Skills</LinkMenu>
         </ItemMenu>
+
       </Menu>
     </>
   );

@@ -8,7 +8,7 @@ console.log(trabalhos)
 export function SectionProject() {
   return (
     <>
-      <S.ContainerSectionProject>
+      <S.ContainerSectionProject id='project'>
         <S.PortfolioTitle>
           <TopicosTag icon="🔗" texto=" Portfólio" />
           <Title texto="Trabalhos e projetos" />
