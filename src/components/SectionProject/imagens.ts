@@ -1,29 +1,28 @@
 
 import img1 from '@assets/image 1.png';
 import OpenF from '@assets/logoOpenFinance.png';
+import neon from '@assets/neon.jpg'
+import sela from '@assets/DrSella.jpg'
+import eclap from '@assets/eclapEngenharia.jpg'
+import lbm from '@assets/imagem-LBM.png'
+import ircontabi from '@assets/contaibilidade.jpg'
+import vm from '@assets/vm.jpg'
+
+
 
 export const trabalhos = [
   {
-    src: img1,
+    src: ircontabi,
     alt: '',
-    title: 'Dentist',
-    description: 'Lading-page desenvolvida com HTML, CSS e JavaScript',
-    link: 'https://landing-page-dentista.vercel.app/',
+    title: 'IR-CONTABILIDADE',
+    description: 'Lading-page desenvolvida com React com TypeScript',
+    link: 'https://ircontabilidade.vercel.app/',
     tec01: 'HTML',
     tec02: 'JavaScript',
   },
+
   {
-    src: img1,
-    alt: '',
-    title: 'WireFrame',
-    description:
-      'Aplicação do Curso CodeBoost do Wil Moreira. Desenvolvida com HTML, CSS e JavaScript. Landing Page de multiplos cards ',
-    link: '',
-    tec01: 'HTML',
-    tec02: 'JavaScript',
-  },
-  {
-    src: img1,
+    src: neon,
     alt: '',
     title: 'Neon',
     description:
@@ -33,17 +32,17 @@ export const trabalhos = [
     tec02: 'JavaScript',
   },
   {
-    src: img1,
+    src: eclap,
     alt: '',
     title: 'EclapEngenharia',
     description:
-      'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios',
+      'Página desenvolvida para o grupo Eclap-Engenharia, que atua no mercado de construção, reformas e engenharia dignósticas.',
     link: 'https://eclap-engenharia.vercel.app/',
     tec01: 'React',
     tec02: 'TypeScrtip',
   },
   {
-    src: img1,
+    src: lbm,
     alt: '',
     title: 'LBM',
     description:
@@ -52,33 +51,25 @@ export const trabalhos = [
     tec01: 'React',
     tec02: 'TypeScrtip',
   },
+
+
   {
-    src: OpenF,
-    alt: '',
-    title: 'Open Finances',
-    description:
-      'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios',
-    link: '',
-    tec01: 'React',
-    tec02: 'TypeScrtip',
-  },
-  {
-    src: img1,
+    src: sela,
     alt: '',
     title: 'Guilherme Sella',
     description:
-      'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios',
+      'Página desenvolvida para apresentar os procedimentos realizados pelo Dr.Sella, a mesma foi desenvolvida utilizando React com TypeScript ',
     link: 'https://guilherme-sella.vercel.app/',
     tec01: 'React',
     tec02: 'TypeScrtip',
   },
   {
-    src: img1,
+    src: vm,
     alt: '',
-    title: 'Leads Solution',
+    title: 'VM - Portas e Serviços',
     description:
-      'Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios',
-    link: 'leads-seven.vercel.app',
+      'Lading Page desenvolvida em React com TypeScript',
+    link: 'https://vm-portasejanelas.vercel.app/',
     tec01: 'React',
     tec02: 'TypeScrtip',
   }

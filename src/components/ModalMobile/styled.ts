@@ -26,9 +26,9 @@ export const Dropdown = styled.div`
   align-items: center;
   gap: 25px;
   width: 500px;
-
+  height: 400px;
   padding: 40px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.9);
   position: relative;
 
   > button {
@@ -44,6 +44,7 @@ export const MenuMobile = styled.ul`
   align-items: center;
   justify-content: center;
   gap: 20px;
+  margin-top: 50px;
 
 `
 

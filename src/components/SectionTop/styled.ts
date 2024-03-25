@@ -86,7 +86,7 @@ export const Avatar = styled.img`
 export const Buttons = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 20px;
 
 
   @media (max-width: 980px) {

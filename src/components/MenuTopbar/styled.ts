@@ -4,7 +4,7 @@ export const Menu = styled.ul`
   list-style: none;
   text-decoration: none;
   display: flex;
-  gap: 16px;
+  gap: 30px;
 
   @media (max-width: 600px) {
     gap: 10px;
