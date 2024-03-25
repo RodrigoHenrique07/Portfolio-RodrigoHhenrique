@@ -49,7 +49,7 @@ export function SectionTop() {
 
               <S.MidiaSocial>
                 <S.IconRede
-                  href="https://www.linkedin.com/feed/"
+                  href="https://www.linkedin.com/in/rodrigo-henrique-b73797229/"
                   target="_blank"
                 >
                   <img src={linkedin} alt="" />
