@@ -9,7 +9,7 @@ import figma from '@assets/iconFigma.svg'
 
 import node from '@assets/iconNodejs.svg'
 import sass from '@assets/iconSASS.svg'
-import prisma from '@assets/iconPrisma.svg'
+import postgres from '@assets/iconPostgres.svg'
 import docker from '@assets/iconDocker.svg'
 
 
@@ -32,7 +32,7 @@ export const TechsOutros = [
 
   {src: node, alt: 'iconNode'},
   {src: sass, alt: 'iconSass'},
-  {src: prisma, alt: 'iconPrisma'},
+  {src: postgres, alt: 'iconPostgres'},
   {src: docker, alt: 'iconDokcer'},
 
 
