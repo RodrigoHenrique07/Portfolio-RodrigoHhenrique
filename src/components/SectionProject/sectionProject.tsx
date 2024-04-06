@@ -2,6 +2,7 @@ import * as S from './styled'
 
 import { trabalhos } from './imagens'
 import { TagsProjetos, Title, TopicosTag, TrabalhosProjetos } from 'ui-library-rodrigo'
+import { SlideProjetos } from '../SlideProjetos/slidesprojetos'
 
 
 
@@ -32,6 +33,10 @@ export function SectionProject() {
             </a>
           ))}
         </S.ProjectCardsList>
+
+        <SlideProjetos/>
+
+
       </S.ContainerSectionProject>
     </>
   )

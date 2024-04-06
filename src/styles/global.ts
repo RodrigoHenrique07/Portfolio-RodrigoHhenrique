@@ -11,6 +11,17 @@ export default createGlobalStyle`
   text-decoration: none;
   font-size: 1.6rem;
   font-family: "Raleway", sans-serif;
+
+
+  >.swiper-pagination-bullet{
+    background-color: white;
+
+  }
+
+  >.swiper-pagination-bullet-active{
+    width: 10px;
+    height: 10px;
+  }
 }
 
 body {

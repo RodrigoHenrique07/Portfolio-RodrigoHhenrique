@@ -5,6 +5,7 @@ export const ContainerSectionProject = styled.section`
 
   border-bottom: 1px solid rgba(123, 74, 226, 0.2);
 
+
 `;
 
 export const PortfolioTitle = styled.div`
@@ -25,6 +26,12 @@ export const ProjectCardsList = styled.div`
   flex-wrap: wrap;
   margin: 0 auto;
   gap: 50px;
+  align-items: center;
+  justify-content: center;
+
+  @media(max-width: 980px) {
+    display: none;
+  }
 
   @media (max-width: 980px){
     align-items: center;
