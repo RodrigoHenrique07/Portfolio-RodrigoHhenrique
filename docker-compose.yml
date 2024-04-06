@@ -4,9 +4,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: rodrigohenrique07/portfolio-rodrigo
     volumes:
       - .:/app
       - /app/node_modules
     ports:
-      - '80:80'
-    command: npm run dev
+      - '3334:3334'
+    command: npm run dev -- --host 0.0.0.0
+    mem_limit: 1g

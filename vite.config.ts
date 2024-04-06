@@ -8,7 +8,7 @@ import * as path from 'path';
 export default defineConfig({
   plugins: [react(), svgr()],
   server: {
-    port: 3333
+    port: 3334
   },
   test: {
     globals: true,
